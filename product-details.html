@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktsida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="/Images/logo.jpg" alt="Logo" class="logo">
+        <div class="header-icons">
+            <input type="text" placeholder="Sök produkt" class="search-bar">
+            <div class="icons">
+                <a href="Favoriter"><i class="fas fa-heart"></i></a>
+                <a href="Varukorg"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="categories">
+        <ul>
+            <li>Nyheter</li>
+            <li>Topplistan</li>
+            <li>Rea</li>
+            <li>Kampanjer</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="product-details">
+            <img src="/Images/produkt1.jpg" alt="Tactile Väst" class="product-image">
+            <div class="nonheart-icon"> 
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="product-info">
+                <h1>Svart Tactile Väst</h1>
+                <p class="brand">UNIQLO</p>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p class="price">1500 SEK</p>
+                <button class="add-to-cart">Lägg i varukorg</button>
+            </div>
+        </section>
+
+        <section class="similar-products">
+            <h2>Liknande produkter</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="/Images/produkt5.jpg" alt="Svart kavaj">
+                    <div class="product-info">
+                        <h3>Fiskbensmönstrad Kavaj</h3>
+                        <p>A-Design</p>
+                    </div>
+                    <div class="product-price">
+                        <p>1100 SEK</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="/Images/produkt4.jpg" alt="beigea skor">
+                    <div class="product-info">
+                        <h3>Sneakers i Konstläder</h3>
+                        <p>Zara Origins</p>
+                    </div>
+                   <div class="product-price">
+                    <p>649 SEK</p>
+                   </div>
+                </div>
+                <div class="product">
+                    <img src="/Images/produkt6.jpg" alt="Vit sweatshirt">
+                    <div class="product-info">
+                        <h3>Halv-Zip Sweatshirt Off-White</h3>
+                        <p>GARÇON</p>
+                    </div>
+                    <div class="product-price">
+                        <p>799 SEK</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-icons">
+            <div>
+                <span>🌍</span>
+                <p>Gratis frakt och returer</p>
+            </div>
+            <div>
+                <span>✈️</span>
+                <p>Expressfrakt</p>
+            </div>
+            <div>
+                <span>🛡️</span>
+                <p>Säkra betalningar</p>
+            </div>
+            <div>
+                <span>😊</span>
+                <p>Nyheter varje dag</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+       <!-- Accordion for mobile view -->
+    <div class="accordion d-md-none">
+        <details>
+            <summary>Mina sidor</summary>
+            <ul>
+                <li><a href="#">Mina ordrar</a></li>
+                <li><a href="#">Mitt konto</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary>Shopping</summary>
+            <ul>
+                <li><a href="#">Vinterjackor</a></li>
+                <li><a href="#">Skor</a></li>
+                <li><a href="#">Stickat</a></li>
+                <li><a href="#">Byxor</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary>Kundtjänst</summary>
+            <ul>
+                <li><a href="#">Returpolicy</a></li>
+                <li><a href="#">Integritetspolicy</a></li>
+            </ul>
+        </details>
+    </div>
+        <section class="footer-container">
+            <div class="Shopping-container footer-list">
+                <h3>Shopping</h3>
+                <ul>
+                    <li><a href="#">Vinterjackor</a></li>
+                    <li><a href="#">Skor</a></li>
+                    <li><a href="#">Stickat</a></li>
+                    <li><a href="#">Byxor</a></li>
+                </ul>
+            </div>
+
+             <div class="mina-sidor-container footer-list">
+                <h3>Mina sidor</h3>
+                <ul>
+                    <li><a href="#">Mina ordrar</a></li>
+                    <li><a href="#">Mitt konto</a></li>
+                </ul>
+            </div>
+
+            <div class="kundtjänst-container footer-list">
+                <h3>Kundtjänst</h3>
+                <ul>
+                    <li><a href="#">Returpolicy</a></li>
+                    <li><a href="#">Integritetspolicy</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="footer">
+        <p>FreakyFashion & Co</p>
+        </div>
+    </footer>
+
+</body>
+</html>
